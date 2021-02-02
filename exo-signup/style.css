@@ -91,3 +91,33 @@ button[type="submit"] {
 .consignes ul > li + li {
   margin-top: 1rem;
 }
+
+.error {
+  color:white;
+  font-weight: bold;
+  background-color: black;
+}
+
+.passWordStrength {
+  color:white;
+  background-color:red;
+}
+.veryWeak,.weak,.good,.veryGood {
+  color:white;
+  font-weight: bold;
+}
+
+.veryWeak {
+  background-color:red;
+}
+.weak {
+  background-color:rgb(255, 123, 0);
+}
+
+.good {
+  background-color:rgb(255, 230, 0);
+}
+
+.veryGood {
+  background-color:rgb(21, 255, 0);
+}
